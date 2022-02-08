@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'mymanager.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.get_env('DB_NAME'),
-        'USER': os.get_env('DB_USER'),
-        'PASSWORD': os.get_env('DB_PASSWORD'),
-        'HOST': os.get_env('DB_HOST'),
-        'PORT': os.get_env('DB_PORT'),
+        'NAME': os.getenv('DB_NAME'),
+        'USER': os.getenv('DB_USER'),
+        'PASSWORD': os.getenv('DB_PASSWORD'),
+        'HOST': os.getenv('DB_HOST'),
+        'PORT': os.getenv('DB_PORT'),
     }
 }
 
