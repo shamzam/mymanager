@@ -36,7 +36,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'pull.apps.PullConfig',
-    # 'login.apps.LoginConfig',
+    'login.apps.LoginConfig',
 ]
 
 MIDDLEWARE = [
