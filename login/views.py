@@ -3,6 +3,6 @@ from django.template import loader
 import subprocess
 
 def login(request):
-    context = []
+    context = {}
     
     return render(request, 'login/login.html', context)
