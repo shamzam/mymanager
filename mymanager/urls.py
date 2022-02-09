@@ -17,5 +17,5 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('/pull', include('pull.urls')),
+    path('pull/', include('pull.urls')),
 ]
