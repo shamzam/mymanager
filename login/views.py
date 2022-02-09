@@ -4,7 +4,7 @@ import subprocess
 
 def login(request):
     context = {}
-    if request.session['loggedIn'] == True:
+    if 'loggedIn' not in request.session:
         return render(request, 'login/test.html', context)
     else:
         return render(request, 'login/login.html', context)
