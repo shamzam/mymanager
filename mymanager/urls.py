@@ -18,5 +18,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('pull/', include('pull.urls')),
-    path(r'/'$, include(login.urls)),
+    # path(r'/'$, include(login.urls)),
 ]
