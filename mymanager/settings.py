@@ -37,6 +37,11 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     'pull.apps.PullConfig',
     'login.apps.LoginConfig',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
 ]
 
 MIDDLEWARE = [
